@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AutomateHeatClinic]">
+  <test thread-count="5" name="HeatClinic(failed)">
+    <parameter name="url" value="http://10.10.10.232:8080/"/>
+    <classes>
+      <class name="com.atmecs.testscript.HeatClinic">
+        <methods>
+          <include name="verifyViewingMensText"/>
+          <include name="buyHabaneroShirt"/>
+          <include name="verifyUserOnRespectivePage"/>
+          <include name="validateCartItem"/>
+          <include name="endBrowser"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- com.atmecs.testscript.HeatClinic -->
+    </classes>
+  </test> <!-- HeatClinic(failed) -->
+</suite> <!-- Failed suite [AutomateHeatClinic] -->
