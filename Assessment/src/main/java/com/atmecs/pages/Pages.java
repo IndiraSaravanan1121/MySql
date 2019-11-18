@@ -11,7 +11,6 @@ import com.atmecs.helper.MyException;
 import com.atmecs.report.LogReport;
 import com.atmecs.utils.ExcelReader;
 import com.atmecs.utils.ReadProperties;
-import com.atmecs.utils.TestBase;
 
 public class Pages {
 	public ExcelReader readExcel = new ExcelReader(Constants.TESTDATA_PATH);
@@ -22,14 +21,13 @@ public class Pages {
 	String url;
 	String expectedUrl;
 
-	public void userOnRespectivePage(WebDriver driver,String sheetName,int rownum,int colnum) throws InterruptedException, MyException {
+	public void userOnRespectivePage(WebDriver driver,String expectedUrl) throws InterruptedException, MyException {
 		try{
 			Thread.sleep(2000);
 	    url = driver.getCurrentUrl();
-		expectedUrl = readExcel.getData(sheetName,rownum,colnum);
 		Assert.assertEquals(url, expectedUrl);
 		}catch(Exception e) {
-			throw new MyException("user on respective not validated");
+			throw new MyException("user on respective page not validated");
 		}
 		
 	}

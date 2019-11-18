@@ -4,7 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import com.atmecs.config.Constants;
@@ -13,20 +13,29 @@ import com.atmecs.pages.Pages;
 import com.atmecs.utils.ExcelReader;
 import com.atmecs.utils.MysqlConnection;
 import com.atmecs.utils.TestBase;
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
 public class TutorialsNinja extends TestBase {
-
+	static ExtentTest test;
+	ExtentReports extent;
+	ExtentHtmlReporter reports;
 	public ExcelReader readExcel = new ExcelReader(Constants.TESTDATA_PATH);
 	private Pages pages = new Pages();
 	public MysqlConnection mysqlreader=new MysqlConnection();
 
-	@BeforeTest
+	@BeforeClass
 	public void startBrowser() throws Exception {
+		reports = new ExtentHtmlReporter("extentreport.html");
+		extent = new ExtentReports();
+		extent.attachReporter(reports);
 		try {
 			openBrowser();
 			driver.get(property.properties("ninjaurl", Constants.CONFIG_PATH));
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+
 		} catch (MyException ex) {
 			log.error("exception occur: " + ex.getMessage());
 		}
@@ -37,7 +46,7 @@ public class TutorialsNinja extends TestBase {
 		try {
 			log.info("1.HomePage Validation");
 			String actualTitle = driver.getTitle();
-			String expectedTitle = mysqlreader.readTestdataFromMysql("select * from tutorialninja", 1);
+			String expectedTitle = mysqlreader.readTestdataFromMysql("select title from tutorialsninja where id=1",1);
 			Assert.assertEquals(actualTitle, expectedTitle);
 			log.info("Homepage is validated");
 		} catch (Exception e) {
@@ -50,11 +59,11 @@ public class TutorialsNinja extends TestBase {
 		log.info("2.Add product to the cart");
 		helper.clickElement(driver, property.properties("loc_search_txtbx", Constants.TUTORIALSNINJALOCATOR_PATH));
 		helper.sendValues(driver, property.properties("loc_search_txtbx", Constants.TUTORIALSNINJALOCATOR_PATH),
-				readExcel.getData("tutorialsninja", 1, 1));
+				mysqlreader.readTestdataFromMysql("select macbookdetail from tutorialsninja where id=1",1));
 		helper.clickElement(driver, property.properties("loc_macbook_lbl", Constants.TUTORIALSNINJALOCATOR_PATH));
 		helper.clearValues(driver,
 				property.properties("loc_productsquantity_lbl", Constants.TUTORIALSNINJALOCATOR_PATH));
-		String macbookQuantity = readExcel.getData("tutorialsninja", 2, 1);
+		String macbookQuantity = mysqlreader.readTestdataFromMysql("select macbookdetail from tutorialsninja where id=2",1);
 		helper.sendValues(driver, property.properties("loc_productsquantity_lbl", Constants.TUTORIALSNINJALOCATOR_PATH),
 				macbookQuantity);
 		helper.clickElement(driver, property.properties("loc_addtocart_lbl", Constants.TUTORIALSNINJALOCATOR_PATH));
@@ -62,13 +71,13 @@ public class TutorialsNinja extends TestBase {
 		helper.clickElement(driver, property.properties("loc_homepage_lbl", Constants.TUTORIALSNINJALOCATOR_PATH));
 		helper.clickElement(driver, property.properties("loc_search_txtbx", Constants.TUTORIALSNINJALOCATOR_PATH));
 		helper.sendValues(driver, property.properties("loc_search_txtbx", Constants.TUTORIALSNINJALOCATOR_PATH),
-				readExcel.getData("tutorialsninja", 1, 2));
+				mysqlreader.readTestdataFromMysql("select iphonedetail from tutorialsninja where id=1",1));
 		helper.sendEnter(driver, property.properties("loc_search_txtbx", Constants.TUTORIALSNINJALOCATOR_PATH));
 		helper.clickElement(driver, property.properties("loc_iphone_lbl", Constants.TUTORIALSNINJALOCATOR_PATH));
 		helper.clearValues(driver,
 				property.properties("loc_productsquantity_lbl", Constants.TUTORIALSNINJALOCATOR_PATH));
 		helper.sendValues(driver, property.properties("loc_productsquantity_lbl", Constants.TUTORIALSNINJALOCATOR_PATH),
-				readExcel.getData("tutorialsninja", 2, 2));
+				mysqlreader.readTestdataFromMysql("select iphonedetail from tutorialsninja where id=2",1));
 		helper.clickElement(driver, property.properties("loc_addtocart_lbl", Constants.TUTORIALSNINJALOCATOR_PATH));
 		log.info("iphone added into the cart");
 

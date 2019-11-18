@@ -5,7 +5,9 @@
     <classes>
       <class name="com.atmecs.testscript.TutorialsNinja">
         <methods>
+          <include name="verifyGrandTotal"/>
           <include name="startBrowser"/>
+          <include name="addToCart"/>
           <include name="validateHomepage"/>
           <include name="verifyProductInCart"/>
           <include name="validateProductDetail"/>

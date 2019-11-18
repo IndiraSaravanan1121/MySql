@@ -1282,3 +1282,307 @@ Session ID: 8e625309-e945-417d-9913-092a9e02a19c
 2019-11-15 18:18:20 INFO  LogReport:15 - 3.Verify product available in the cart
 2019-11-15 18:18:52 INFO  LogReport:15 - 4.Validate product details
 2019-11-15 18:19:23 INFO  LogReport:15 - 5.Verify grant total and its update
+2019-11-18 11:19:16 INFO  LogReport:15 - 1.HomePage Validation
+2019-11-18 11:19:16 INFO  LogReport:15 - Homepage is validated
+2019-11-18 11:19:16 INFO  LogReport:15 - 2.Add product to the cart
+2019-11-18 11:19:21 INFO  LogReport:15 - macbook added into the cart
+2019-11-18 11:19:26 INFO  LogReport:15 - iphone added into the cart
+2019-11-18 11:19:26 INFO  LogReport:15 - 3.Verify product available in the cart
+2019-11-18 11:19:33 INFO  LogReport:15 - 4.Validate product details
+2019-11-18 11:19:41 INFO  LogReport:15 - 5.Verify grant total and its update
+2019-11-18 11:20:20 INFO  LogReport:15 - 1.HomePage Validation
+2019-11-18 11:20:20 INFO  LogReport:15 - 2.Add product to the cart
+2019-11-18 11:20:24 INFO  LogReport:15 - macbook added into the cart
+2019-11-18 11:20:57 INFO  LogReport:15 - 3.Verify product available in the cart
+2019-11-18 11:21:29 INFO  LogReport:15 - 4.Validate product details
+2019-11-18 11:21:29 INFO  LogReport:15 - 5.Verify grant total and its update
+2019-11-18 11:21:45 INFO  LogReport:15 - 1.HomePage Validation
+2019-11-18 11:21:46 INFO  LogReport:15 - Homepage is validated
+2019-11-18 11:21:46 INFO  LogReport:15 - 2.Add product to the cart
+2019-11-18 11:21:50 INFO  LogReport:15 - macbook added into the cart
+2019-11-18 11:22:23 INFO  LogReport:15 - 3.Verify product available in the cart
+2019-11-18 11:22:48 INFO  LogReport:15 - 1.HomePage Validation
+2019-11-18 11:22:48 ERROR LogReport:20 - Homepage not validatedjava.sql.SQLException: Column Index out of range, 2 > 1. 
+2019-11-18 11:22:48 INFO  LogReport:15 - 2.Add product to the cart
+2019-11-18 11:22:52 INFO  LogReport:15 - macbook added into the cart
+2019-11-18 11:22:57 INFO  LogReport:15 - iphone added into the cart
+2019-11-18 11:22:57 INFO  LogReport:15 - 3.Verify product available in the cart
+2019-11-18 11:22:57 INFO  LogReport:15 - 4.Validate product details
+2019-11-18 11:23:36 INFO  LogReport:15 - 1.HomePage Validation
+2019-11-18 11:23:37 INFO  LogReport:15 - 2.Add product to the cart
+2019-11-18 11:23:41 INFO  LogReport:15 - macbook added into the cart
+2019-11-18 11:23:48 INFO  LogReport:15 - 3.Verify product available in the cart
+2019-11-18 11:23:56 INFO  LogReport:15 - 4.Validate product details
+2019-11-18 11:24:04 INFO  LogReport:15 - 5.Verify grant total and its update
+2019-11-18 11:24:05 INFO  LogReport:15 - 1.HomePage Validation
+2019-11-18 11:24:06 INFO  LogReport:15 - Homepage is validated
+2019-11-18 11:24:06 INFO  LogReport:15 - 2.Add product to the cart
+2019-11-18 11:24:10 INFO  LogReport:15 - macbook added into the cart
+2019-11-18 11:24:37 INFO  LogReport:15 - 1.HomePage Validation
+2019-11-18 11:24:37 INFO  LogReport:15 - Homepage is validated
+2019-11-18 11:24:37 INFO  LogReport:15 - 2.Add product to the cart
+2019-11-18 11:24:42 INFO  LogReport:15 - macbook added into the cart
+2019-11-18 11:24:44 INFO  LogReport:15 - 3.Verify product available in the cart
+2019-11-18 11:25:16 INFO  LogReport:15 - 4.Validate product details
+2019-11-18 11:25:16 INFO  LogReport:15 - 3.Verify product available in the cart
+2019-11-18 11:25:47 INFO  LogReport:15 - 5.Verify grant total and its update
+2019-11-18 11:26:48 INFO  LogReport:15 - 4.Validate product details
+2019-11-18 11:27:49 INFO  LogReport:15 - 5.Verify grant total and its update
+2019-11-18 11:28:48 INFO  LogReport:15 - 1.HomePage Validation
+2019-11-18 11:28:48 INFO  LogReport:15 - Homepage is validated
+2019-11-18 11:28:48 INFO  LogReport:15 - 2.Add product to the cart
+2019-11-18 11:28:51 INFO  LogReport:15 - 3.Verify product available in the cart
+2019-11-18 11:29:17 INFO  LogReport:15 - 1.HomePage Validation
+2019-11-18 11:29:17 INFO  LogReport:15 - Homepage is validated
+2019-11-18 11:29:17 INFO  LogReport:15 - 2.Add product to the cart
+2019-11-18 11:29:22 INFO  LogReport:15 - macbook added into the cart
+2019-11-18 11:29:55 INFO  LogReport:15 - 3.Verify product available in the cart
+2019-11-18 11:29:56 INFO  LogReport:15 - 4.Validate product details
+2019-11-18 11:30:23 INFO  LogReport:15 - 4.Validate product details
+2019-11-18 11:30:26 INFO  LogReport:15 - 5.Verify grant total and its update
+2019-11-18 11:30:54 INFO  LogReport:15 - 5.Verify grant total and its update
+2019-11-18 11:33:36 INFO  LogReport:15 - 1.HomePage Validation
+2019-11-18 11:33:36 INFO  LogReport:15 - Homepage is validated
+2019-11-18 11:33:36 INFO  LogReport:15 - 2.Add product to the cart
+2019-11-18 11:33:40 INFO  LogReport:15 - macbook added into the cart
+2019-11-18 11:33:48 INFO  LogReport:15 - 3.Verify product available in the cart
+2019-11-18 11:33:56 INFO  LogReport:15 - 4.Validate product details
+2019-11-18 11:34:04 INFO  LogReport:15 - 5.Verify grant total and its update
+2019-11-18 11:34:47 INFO  LogReport:15 - 1.HomePage Validation
+2019-11-18 11:34:47 INFO  LogReport:15 - Homepage is validated
+2019-11-18 11:34:47 INFO  LogReport:15 - 2.Add product to the cart
+2019-11-18 11:34:51 INFO  LogReport:15 - macbook added into the cart
+2019-11-18 11:35:25 INFO  LogReport:15 - 3.Verify product available in the cart
+2019-11-18 11:35:25 INFO  LogReport:15 - 4.Validate product details
+2019-11-18 11:35:55 INFO  LogReport:15 - 5.Verify grant total and its update
+2019-11-18 11:49:51 INFO  LogReport:15 - 1.HomePage Validation
+2019-11-18 11:49:51 INFO  LogReport:15 - Homepage is validated
+2019-11-18 11:49:51 INFO  LogReport:15 - 2.Add product to the cart
+2019-11-18 11:49:55 INFO  LogReport:15 - macbook added into the cart
+2019-11-18 11:49:59 INFO  LogReport:15 - 3.Verify product available in the cart
+2019-11-18 11:50:27 INFO  LogReport:15 - 1.HomePage Validation
+2019-11-18 11:50:28 INFO  LogReport:15 - Homepage is validated
+2019-11-18 11:50:28 INFO  LogReport:15 - 2.Add product to the cart
+2019-11-18 11:50:31 INFO  LogReport:15 - 4.Validate product details
+2019-11-18 11:50:32 INFO  LogReport:15 - macbook added into the cart
+2019-11-18 11:50:40 INFO  LogReport:15 - 3.Verify product available in the cart
+2019-11-18 11:50:48 INFO  LogReport:15 - 4.Validate product details
+2019-11-18 11:50:57 INFO  LogReport:15 - 5.Verify grant total and its update
+2019-11-18 11:51:01 INFO  LogReport:15 - 5.Verify grant total and its update
+2019-11-18 11:52:12 INFO  LogReport:15 - 1.HomePage Validation
+2019-11-18 11:52:13 INFO  LogReport:15 - Homepage is validated
+2019-11-18 11:52:13 INFO  LogReport:15 - 2.Add product to the cart
+2019-11-18 11:52:17 INFO  LogReport:15 - macbook added into the cart
+2019-11-18 11:52:24 INFO  LogReport:15 - 3.Verify product available in the cart
+2019-11-18 11:52:32 INFO  LogReport:15 - 4.Validate product details
+2019-11-18 11:52:40 INFO  LogReport:15 - 5.Verify grant total and its update
+2019-11-18 11:59:44 INFO  LogReport:15 - 1.HomePage Validation
+2019-11-18 11:59:45 INFO  LogReport:15 - Homepage is validated
+2019-11-18 11:59:45 INFO  LogReport:15 - 2.Add product to the cart
+2019-11-18 11:59:49 INFO  LogReport:15 - macbook added into the cart
+2019-11-18 11:59:57 INFO  LogReport:15 - 3.Verify product available in the cart
+2019-11-18 12:00:05 INFO  LogReport:15 - 4.Validate product details
+2019-11-18 12:00:13 INFO  LogReport:15 - 5.Verify grant total and its update
+2019-11-18 12:01:35 INFO  LogReport:15 - 1.HomePage Validation
+2019-11-18 12:01:35 INFO  LogReport:15 - Homepage is validated
+2019-11-18 12:01:35 INFO  LogReport:15 - 2.Add product to the cart
+2019-11-18 12:01:40 INFO  LogReport:15 - macbook added into the cart
+2019-11-18 12:01:43 INFO  LogReport:15 - 3.Verify product available in the cart
+2019-11-18 12:02:15 INFO  LogReport:15 - 4.Validate product details
+2019-11-18 12:02:45 INFO  LogReport:15 - 5.Verify grant total and its update
+2019-11-18 12:11:46 INFO  LogReport:15 - 2.Verify viewing mens text is displayed
+2019-11-18 12:11:48 INFO  LogReport:15 - Viewing men's text is displayed
+2019-11-18 12:11:48 INFO  LogReport:15 - 3.Buy Habanero shirt with specified color and size
+2019-11-18 12:11:51 INFO  LogReport:15 - color is clicked
+2019-11-18 12:11:51 INFO  LogReport:15 - size is clicked
+2019-11-18 12:11:51 INFO  LogReport:15 - personalized name is sended
+2019-11-18 12:11:52 INFO  LogReport:15 - BuyNow is clicked
+2019-11-18 12:11:52 INFO  LogReport:15 - 4.Validate item in the cart
+2019-11-18 12:11:52 INFO  LogReport:15 - shirt size is verified
+2019-11-18 12:11:53 INFO  LogReport:15 - personalized name is verified
+2019-11-18 12:11:53 INFO  LogReport:15 - shirt color is verified
+2019-11-18 12:11:53 INFO  LogReport:15 - validated cart item
+2019-11-18 12:11:53 INFO  LogReport:15 - verify total price update
+2019-11-18 12:11:53 ERROR LogReport:20 - Price not updated
+2019-11-18 12:12:17 INFO  LogReport:15 - 2.Verify viewing mens text is displayed
+2019-11-18 12:12:19 INFO  LogReport:15 - Viewing men's text is displayed
+2019-11-18 12:12:19 INFO  LogReport:15 - 3.Buy Habanero shirt with specified color and size
+2019-11-18 12:12:22 INFO  LogReport:15 - color is clicked
+2019-11-18 12:12:22 INFO  LogReport:15 - size is clicked
+2019-11-18 12:12:22 INFO  LogReport:15 - personalized name is sended
+2019-11-18 12:12:23 INFO  LogReport:15 - BuyNow is clicked
+2019-11-18 12:12:23 INFO  LogReport:15 - 4.Validate item in the cart
+2019-11-18 12:12:53 INFO  LogReport:15 - verify total price update
+2019-11-18 12:13:54 ERROR LogReport:20 - Price not updated
+2019-11-18 12:18:11 INFO  LogReport:15 - 1.Verify user redirect to respective page
+2019-11-18 12:18:11 INFO  LogReport:15 - 2.Verify viewing mens text is displayed
+2019-11-18 12:18:13 INFO  LogReport:15 - Viewing men's text is displayed
+2019-11-18 12:18:13 INFO  LogReport:15 - 3.Buy Habanero shirt with specified color and size
+2019-11-18 12:18:16 INFO  LogReport:15 - color is clicked
+2019-11-18 12:18:16 INFO  LogReport:15 - size is clicked
+2019-11-18 12:18:16 INFO  LogReport:15 - personalized name is sended
+2019-11-18 12:18:17 INFO  LogReport:15 - BuyNow is clicked
+2019-11-18 12:18:17 INFO  LogReport:15 - 4.Validate item in the cart
+2019-11-18 12:18:47 INFO  LogReport:15 - verify total price update
+2019-11-18 12:19:48 ERROR LogReport:20 - Price not updated
+2019-11-18 12:20:23 INFO  LogReport:15 - 1.Verify user redirect to respective page
+2019-11-18 12:20:25 INFO  LogReport:15 - 2.Verify viewing mens text is displayed
+2019-11-18 12:20:27 INFO  LogReport:15 - Viewing men's text is displayed
+2019-11-18 12:20:27 INFO  LogReport:15 - 3.Buy Habanero shirt with specified color and size
+2019-11-18 12:20:30 INFO  LogReport:15 - color is clicked
+2019-11-18 12:20:31 INFO  LogReport:15 - size is clicked
+2019-11-18 12:20:31 INFO  LogReport:15 - personalized name is sended
+2019-11-18 12:20:31 INFO  LogReport:15 - BuyNow is clicked
+2019-11-18 12:20:31 INFO  LogReport:15 - 4.Validate item in the cart
+2019-11-18 12:21:02 INFO  LogReport:15 - verify total price update
+2019-11-18 12:22:03 ERROR LogReport:20 - Price not updated
+2019-11-18 12:44:45 INFO  LogReport:15 - 1.Verify user redirect to respective page
+2019-11-18 12:44:48 INFO  LogReport:15 - user is on homepage
+2019-11-18 12:44:51 INFO  LogReport:15 - 2.Verify viewing mens text is displayed
+2019-11-18 12:44:53 INFO  LogReport:15 - Viewing men's text is displayed
+2019-11-18 12:44:53 INFO  LogReport:15 - 3.Buy Habanero shirt with specified color and size
+2019-11-18 12:44:56 INFO  LogReport:15 - color is clicked
+2019-11-18 12:44:56 INFO  LogReport:15 - size is clicked
+2019-11-18 12:44:57 INFO  LogReport:15 - personalized name is sended
+2019-11-18 12:44:57 INFO  LogReport:15 - BuyNow is clicked
+2019-11-18 12:44:57 INFO  LogReport:15 - 4.Validate item in the cart
+2019-11-18 12:45:28 INFO  LogReport:15 - verify total price update
+2019-11-18 12:46:14 INFO  LogReport:15 - 1.Verify user redirect to respective page
+2019-11-18 12:46:17 INFO  LogReport:15 - user is on homepage
+2019-11-18 12:46:19 INFO  LogReport:15 - user is on hotsauce page
+2019-11-18 12:46:22 INFO  LogReport:15 - user is on merchandise page
+2019-11-18 12:46:26 INFO  LogReport:15 - user is on clearance page
+2019-11-18 12:46:29 ERROR LogReport:20 - Price not updated
+2019-11-18 12:46:29 INFO  LogReport:15 - user is on newtohotsauce page
+2019-11-18 12:46:32 INFO  LogReport:15 - user is on faq page
+2019-11-18 12:46:32 INFO  LogReport:15 - 2.Verify viewing mens text is displayed
+2019-11-18 12:46:33 ERROR LogReport:20 - Viewing men's text is not displayed
+2019-11-18 12:46:33 INFO  LogReport:15 - 3.Buy Habanero shirt with specified color and size
+2019-11-18 12:46:36 INFO  LogReport:15 - color is clicked
+2019-11-18 12:46:37 INFO  LogReport:15 - size is clicked
+2019-11-18 12:46:37 INFO  LogReport:15 - personalized name is sended
+2019-11-18 12:46:37 INFO  LogReport:15 - BuyNow is clicked
+2019-11-18 12:46:37 INFO  LogReport:15 - 4.Validate item in the cart
+2019-11-18 12:46:38 INFO  LogReport:15 - shirt size is verified
+2019-11-18 12:46:39 INFO  LogReport:15 - personalized name is verified
+2019-11-18 12:46:39 INFO  LogReport:15 - shirt color is verified
+2019-11-18 12:46:39 INFO  LogReport:15 - validated cart item
+2019-11-18 12:46:39 INFO  LogReport:15 - verify total price update
+2019-11-18 12:46:39 ERROR LogReport:20 - Price not updated
+2019-11-18 12:48:32 INFO  LogReport:15 - 1.Verify user redirect to respective page
+2019-11-18 12:48:35 INFO  LogReport:15 - user is on homepage
+2019-11-18 12:48:38 INFO  LogReport:15 - user is on hotsauce page
+2019-11-18 12:48:41 INFO  LogReport:15 - user is on merchandise page
+2019-11-18 12:48:44 INFO  LogReport:15 - user is on clearance page
+2019-11-18 12:48:48 INFO  LogReport:15 - user is on newtohotsauce page
+2019-11-18 12:48:51 INFO  LogReport:15 - user is on faq page
+2019-11-18 12:48:51 INFO  LogReport:15 - 2.Verify viewing mens text is displayed
+2019-11-18 12:48:53 INFO  LogReport:15 - Viewing men's text is displayed
+2019-11-18 12:48:53 INFO  LogReport:15 - 3.Buy Habanero shirt with specified color and size
+2019-11-18 12:48:55 INFO  LogReport:15 - color is clicked
+2019-11-18 12:48:56 INFO  LogReport:15 - size is clicked
+2019-11-18 12:48:56 INFO  LogReport:15 - personalized name is sended
+2019-11-18 12:48:56 INFO  LogReport:15 - BuyNow is clicked
+2019-11-18 12:48:56 INFO  LogReport:15 - 4.Validate item in the cart
+2019-11-18 12:48:57 INFO  LogReport:15 - shirt size is verified
+2019-11-18 12:48:57 INFO  LogReport:15 - personalized name is verified
+2019-11-18 12:48:57 INFO  LogReport:15 - shirt color is verified
+2019-11-18 12:48:57 INFO  LogReport:15 - validated cart item
+2019-11-18 12:48:57 INFO  LogReport:15 - verify total price update
+2019-11-18 12:48:58 ERROR LogReport:20 - Price not updated
+2019-11-18 12:51:39 INFO  LogReport:15 - 1.Verify user redirect to respective page
+2019-11-18 12:51:41 INFO  LogReport:15 - user is on homepage
+2019-11-18 12:51:44 INFO  LogReport:15 - user is on hotsauce page
+2019-11-18 12:51:47 INFO  LogReport:15 - user is on merchandise page
+2019-11-18 12:51:50 INFO  LogReport:15 - user is on clearance page
+2019-11-18 12:51:53 INFO  LogReport:15 - user is on newtohotsauce page
+2019-11-18 12:51:56 INFO  LogReport:15 - user is on faq page
+2019-11-18 12:51:56 INFO  LogReport:15 - 2.Verify viewing mens text is displayed
+2019-11-18 12:51:58 INFO  LogReport:15 - Viewing men's text is displayed
+2019-11-18 12:51:58 INFO  LogReport:15 - 3.Buy Habanero shirt with specified color and size
+2019-11-18 12:52:01 INFO  LogReport:15 - color is clicked
+2019-11-18 12:52:01 INFO  LogReport:15 - size is clicked
+2019-11-18 12:52:02 INFO  LogReport:15 - personalized name is sended
+2019-11-18 12:52:02 INFO  LogReport:15 - BuyNow is clicked
+2019-11-18 12:52:02 INFO  LogReport:15 - 4.Validate item in the cart
+2019-11-18 12:52:03 INFO  LogReport:15 - shirt size is verified
+2019-11-18 12:52:03 INFO  LogReport:15 - personalized name is verified
+2019-11-18 12:52:03 INFO  LogReport:15 - shirt color is verified
+2019-11-18 12:52:03 INFO  LogReport:15 - validated cart item
+2019-11-18 12:52:03 INFO  LogReport:15 - verify total price update
+2019-11-18 12:52:04 ERROR LogReport:20 - Price not updated
+2019-11-18 12:53:48 INFO  LogReport:15 - 1.Verify user redirect to respective page
+2019-11-18 12:53:50 INFO  LogReport:15 - user is on homepage
+2019-11-18 12:53:54 INFO  LogReport:15 - user is on hotsauce page
+2019-11-18 12:53:57 INFO  LogReport:15 - user is on merchandise page
+2019-11-18 12:54:01 INFO  LogReport:15 - user is on clearance page
+2019-11-18 12:54:04 INFO  LogReport:15 - user is on newtohotsauce page
+2019-11-18 12:54:07 INFO  LogReport:15 - user is on faq page
+2019-11-18 12:54:07 INFO  LogReport:15 - 2.Verify viewing mens text is displayed
+2019-11-18 12:54:09 INFO  LogReport:15 - Viewing men's text is displayed
+2019-11-18 12:54:09 INFO  LogReport:15 - 3.Buy Habanero shirt with specified color and size
+2019-11-18 12:54:12 INFO  LogReport:15 - color is clicked
+2019-11-18 12:54:12 INFO  LogReport:15 - size is clicked
+2019-11-18 12:54:12 INFO  LogReport:15 - personalized name is sended
+2019-11-18 12:54:13 INFO  LogReport:15 - BuyNow is clicked
+2019-11-18 12:54:13 INFO  LogReport:15 - 4.Validate item in the cart
+2019-11-18 12:54:13 INFO  LogReport:15 - shirt size is verified
+2019-11-18 12:54:13 INFO  LogReport:15 - personalized name is verified
+2019-11-18 12:54:14 INFO  LogReport:15 - shirt color is verified
+2019-11-18 12:54:14 INFO  LogReport:15 - validated cart item
+2019-11-18 12:54:14 INFO  LogReport:15 - verify total price update
+2019-11-18 14:37:13 INFO  LogReport:15 - 1.Verify user redirect to respective page
+2019-11-18 14:37:15 INFO  LogReport:15 - user is on homepage
+2019-11-18 14:37:18 INFO  LogReport:15 - user is on hotsauce page
+2019-11-18 14:37:20 INFO  LogReport:15 - user is on merchandise page
+2019-11-18 14:37:24 INFO  LogReport:15 - user is on clearance page
+2019-11-18 14:37:28 INFO  LogReport:15 - user is on newtohotsauce page
+2019-11-18 14:37:31 INFO  LogReport:15 - 2.Verify viewing mens text is displayed
+2019-11-18 14:37:34 INFO  LogReport:15 - Viewing men's text is displayed
+2019-11-18 14:37:34 INFO  LogReport:15 - 3.Buy Habanero shirt with specified color and size
+2019-11-18 14:37:37 INFO  LogReport:15 - color is clicked
+2019-11-18 14:37:38 INFO  LogReport:15 - size is clicked
+2019-11-18 14:37:38 INFO  LogReport:15 - personalized name is sended
+2019-11-18 14:37:38 INFO  LogReport:15 - BuyNow is clicked
+2019-11-18 14:37:38 INFO  LogReport:15 - 4.Validate item in the cart
+2019-11-18 14:37:39 INFO  LogReport:15 - shirt size is verified
+2019-11-18 14:37:40 INFO  LogReport:15 - personalized name is verified
+2019-11-18 14:37:40 INFO  LogReport:15 - shirt color is verified
+2019-11-18 14:37:40 INFO  LogReport:15 - validated cart item
+2019-11-18 14:37:40 INFO  LogReport:15 - verify total price update
+2019-11-18 14:48:41 INFO  LogReport:15 - 1.Verify user redirect to respective page
+2019-11-18 14:48:43 INFO  LogReport:15 - user is on homepage
+2019-11-18 14:48:47 INFO  LogReport:15 - user is on hotsauce page
+2019-11-18 14:48:50 INFO  LogReport:15 - user is on merchandise page
+2019-11-18 14:48:54 INFO  LogReport:15 - user is on clearance page
+2019-11-18 14:48:58 INFO  LogReport:15 - user is on newtohotsauce page
+2019-11-18 14:49:01 INFO  LogReport:15 - user is on faq page
+2019-11-18 14:49:01 INFO  LogReport:15 - 2.Verify viewing mens text is displayed
+2019-11-18 14:49:03 INFO  LogReport:15 - Viewing men's text is displayed
+2019-11-18 14:49:03 INFO  LogReport:15 - 3.Buy Habanero shirt with specified color and size
+2019-11-18 14:49:06 INFO  LogReport:15 - color is clicked
+2019-11-18 14:49:07 INFO  LogReport:15 - size is clicked
+2019-11-18 14:49:08 INFO  LogReport:15 - personalized name is sended
+2019-11-18 14:49:08 INFO  LogReport:15 - BuyNow is clicked
+2019-11-18 14:49:08 INFO  LogReport:15 - 4.Validate item in the cart
+2019-11-18 14:49:09 INFO  LogReport:15 - shirt size is verified
+2019-11-18 14:49:09 INFO  LogReport:15 - personalized name is verified
+2019-11-18 14:49:09 INFO  LogReport:15 - shirt color is verified
+2019-11-18 14:49:09 INFO  LogReport:15 - validated cart item
+2019-11-18 14:49:09 INFO  LogReport:15 - verify total price update
+2019-11-18 14:49:11 INFO  LogReport:15 - Price updated
+2019-11-18 14:49:51 INFO  LogReport:15 - 1.HomePage Validation
+2019-11-18 14:49:51 INFO  LogReport:15 - Homepage is validated
+2019-11-18 14:49:51 INFO  LogReport:15 - 2.Add product to the cart
+2019-11-18 14:49:55 INFO  LogReport:15 - macbook added into the cart
+2019-11-18 14:50:00 INFO  LogReport:15 - 3.Verify product available in the cart
+2019-11-18 14:50:32 INFO  LogReport:15 - 4.Validate product details
+2019-11-18 14:51:03 INFO  LogReport:15 - 5.Verify grant total and its update
+2019-11-18 14:52:02 INFO  LogReport:15 - 1.HomePage Validation
+2019-11-18 14:52:02 INFO  LogReport:15 - Homepage is validated
+2019-11-18 14:52:02 INFO  LogReport:15 - 2.Add product to the cart
+2019-11-18 14:52:06 INFO  LogReport:15 - macbook added into the cart
+2019-11-18 14:52:12 INFO  LogReport:15 - iphone added into the cart
+2019-11-18 14:52:12 INFO  LogReport:15 - 3.Verify product available in the cart
+2019-11-18 14:52:44 INFO  LogReport:15 - 4.Validate product details
+2019-11-18 14:53:14 INFO  LogReport:15 - 5.Verify grant total and its update
