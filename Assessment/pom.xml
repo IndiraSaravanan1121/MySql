@@ -20,7 +20,7 @@
 		<log.version>1.2.17</log.version>
 		<extentreport.version>4.0.9</extentreport.version>
 		<testng.version>7.0.0</testng.version>
-		<mysql.connector>8.0.18</mysql.connector>
+		<mysql.connector>8.0.28</mysql.connector>
 	</properties>
 
 	<build>
